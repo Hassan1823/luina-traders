@@ -1,0 +1,19 @@
+----to updated model on schema every time ----
+npx prisma db push
+
+1) npm install prisma -D
+2) npx prisma init //will create a prisma folder for us
+
+3) define schema in the @prisma/schema.prisma file 
+
+------DB-------
+name : amayama
+password: amayama
+link: mongodb+srv://amayama:<password>@cluster0.hodh9ua.mongodb.net/
+
+4) npm install @apollo/server graphql
+
+5) => visit this repo 
+https://github.com/apollo-server-integrations/apollo-server-integration-next
+
+6) npm i @as-integrations/next --force
